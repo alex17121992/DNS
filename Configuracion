@@ -1,0 +1,38 @@
+Como instalar el DNS
+
+https://github.com/alex17121992/DNS/blob/master/instalarBind9.png
+ 
+Poner IP fija al DNS
+ 
+https://github.com/alex17121992/DNS/blob/master/tarjetaRed.png
+
+Configurar DNS
+	cd /etc/bind/
+  
+	sudo nano named.conf.options
+  
+https://github.com/alex17121992/DNS/blob/master/VirtualBox_ubuntuDnsFtp_03_04_2017_19_35_40.png
+ 
+  Sudo nano named.conf
+  
+  https://github.com/alex17121992/DNS/blob/master/VirtualBox_ubuntuDnsFtp_03_04_2017_19_50_42.png
+ 
+	sudo nano named.conf.local
+  
+https://github.com/alex17121992/DNS/blob/master/configuracionDominios.png
+ 
+	sudo nano rd.sitioa.com
+  
+ https://github.com/alex17121992/DNS/blob/master/VirtualBox_ubuntuDnsFtp_03_04_2017_19_56_38.png
+ 
+	sudo nano rd.sitiob.net
+ 
+ https://github.com/alex17121992/DNS/blob/master/VirtualBox_ubuntuDnsFtp_03_04_2017_19_58_19.png
+  
+  sudo nano rd.sitioc.net
+  
+  https://github.com/alex17121992/DNS/blob/master/VirtualBox_ubuntuDnsFtp_03_04_2017_19_59_54.png
+  
+  sudo nano ri.192.168.1
+  
+https://github.com/alex17121992/DNS/blob/master/VirtualBox_ubuntuDnsFtp_03_04_2017_20_03_26.png
